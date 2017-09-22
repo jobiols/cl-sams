@@ -21,7 +21,7 @@
 {
     'name': 'sams',
     'version': '9.0.1.0',
-    'license': 'Other propietary',
+    'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
     'description': """
