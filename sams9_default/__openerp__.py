@@ -32,6 +32,10 @@ Customización Sams
 """,
     'author': 'jeo Software',
     'depends': [
+        'l10n_ar_afipws_fe',
+        'sale',
+        'account_accountant',
+        'server_mode'  #disable some functions when running databases on odoo servers with parameter server_mode = "some value"
     ],
 
     'data': [
