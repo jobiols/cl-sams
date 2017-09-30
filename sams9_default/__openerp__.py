@@ -20,22 +20,24 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams',
-    'version': '9.0.1.0',
+    'version': '9.0.1.1',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
     'description': """
 
 
-Customización Sams
-==================
+Customización Sams v9
+=====================
 """,
     'author': 'jeo Software',
     'depends': [
-        'l10n_ar_afipws_fe',
+        'l10n_ar_afipws_fe',        # Factura Electrónica Argentina
+        'l10n_ar_aeroo_einvoice',   # impresion de factura electronica aeroo
+        'server_mode'               # habilitar uso de parametro server_mode = "some value" en config.
+
         'sale',
         'account_accountant',
-        'server_mode'  #disable some functions when running databases on odoo servers with parameter server_mode = "some value"
     ],
 
     'data': [
