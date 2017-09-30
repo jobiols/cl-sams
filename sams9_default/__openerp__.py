@@ -34,7 +34,7 @@ Customización Sams v9
     'depends': [
         'l10n_ar_afipws_fe',        # Factura Electrónica Argentina
         'l10n_ar_aeroo_einvoice',   # impresion de factura electronica aeroo
-        'server_mode'               # habilitar uso de parametro server_mode = "some value" en config.
+        'server_mode',              # habilitar uso de parametro server_mode = "some value" en config.
 
         'sale',
         'account_accountant',
