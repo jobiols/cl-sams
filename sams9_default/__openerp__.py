@@ -38,6 +38,8 @@ Customización Sams v9
 
         'sale',
         'account_accountant',
+        'stock',
+        'purchase'
     ],
 
     'data': [
