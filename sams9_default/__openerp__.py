@@ -32,10 +32,9 @@ Customización Sams v9
 """,
     'author': 'jeo Software',
     'depends': [
-        'l10n_ar_afipws_fe',        # Factura Electrónica Argentina
-        'l10n_ar_aeroo_einvoice',   # impresion de factura electronica aeroo
-        'server_mode',              # habilitar uso de parametro server_mode = "some value" en config.
+        'support_branding_jeosoft', # soporte de jeosoft y + modulos utilitarios
 
+        # aplicaciones instaladas
         'sale',
         'account_accountant',
         'stock',
