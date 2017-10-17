@@ -35,10 +35,10 @@ Customización Sams v9
         'support_branding_jeosoft', # soporte de jeosoft y + modulos utilitarios
 
         # aplicaciones instaladas
-        'sale',
+        'sale', 'l10n_ar_aeroo_sale',           # ventas
         'account_accountant',
         'stock',
-        'purchase'
+        'purchase', 'l10n_ar_aeroo_purchase',   # compras
     ],
 
     'data': [
