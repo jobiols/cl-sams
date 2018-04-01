@@ -20,25 +20,27 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams',
-    'version': '9.0.1.1',
+    'version': '9.0.2.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
-    'description': """
-
-
-Customización Sams v9
-=====================
-""",
     'author': 'jeo Software',
     'depends': [
-        'support_branding_jeosoft', # soporte de jeosoft y + modulos utilitarios
+        'support_branding_jeosoft',
 
         # aplicaciones instaladas
-        'sale', 'l10n_ar_aeroo_sale',           # ventas
-        'account_accountant',
-        'stock',
-        'purchase', 'l10n_ar_aeroo_purchase',   # compras
+        'sale', 'l10n_ar_aeroo_sale',  # ventas
+#        'purchase', 'l10n_ar_aeroo_purchase',  # compras
+        'account_accountant',  # permisos para contabilidad
+#        'l10n_ar_aeroo_stock',
+
+        'product_unique',
+        'account_reconciliation_menu',  # agrega boton en partner
+        'base_state_active',  # Deactivate US States
+        'account_fix',  # Account Fixes
+        'account_invoice_tax_wizard',  # add manual taxes on invoices
+        'web_export_view',  # exportar vistas en excel
+        'account_clean_cancelled_invoice_number',  # borrar facturas canceladas
     ],
 
     'data': [
