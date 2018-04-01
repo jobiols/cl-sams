@@ -32,8 +32,7 @@
         'sale', 'l10n_ar_aeroo_sale',  # ventas
 #        'purchase', 'l10n_ar_aeroo_purchase',  # compras
         'account_accountant',  # permisos para contabilidad
-#        'l10n_ar_aeroo_stock',
-
+        'stock', 'stock_account', 'l10n_ar_aeroo_stock','sale_stock',
         'product_unique',
         'account_reconciliation_menu',  # agrega boton en partner
         'base_state_active',  # Deactivate US States
@@ -41,6 +40,15 @@
         'account_invoice_tax_wizard',  # add manual taxes on invoices
         'web_export_view',  # exportar vistas en excel
         'account_clean_cancelled_invoice_number',  # borrar facturas canceladas
+
+        'account_document',
+        'account_withholding',
+        'barcodes',
+        'procurement_jit',
+        'report_extended_purchase',
+        'report_extended_sale',
+        'web_kanban', 'web_kanban_gauge', 'web_planner', 'web_settings_dashboard',
+        'web_tip', 'web_view_editor'
     ],
 
     'data': [
