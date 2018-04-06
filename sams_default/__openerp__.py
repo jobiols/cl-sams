@@ -48,7 +48,7 @@
         'report_extended_purchase',
         'report_extended_sale',
         'web_kanban', 'web_kanban_gauge', 'web_planner', 'web_settings_dashboard',
-        'web_tip', 'web_view_editor'
+        'web_tip', 'web_view_editor', 'base_import'
     ],
 
     'data': [

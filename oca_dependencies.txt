@@ -1,0 +1,2 @@
+cl-sams https://github.com/jobiols/cl-sams 9.0
+odoo-addons https://github.com/jobiols/odoo-addons 9.0
