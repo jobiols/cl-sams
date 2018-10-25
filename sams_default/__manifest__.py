@@ -41,6 +41,18 @@
         'project',
 
         # aplicaciones instaladas
+        'backend_theme',
+        'crm',
+        'project',
+        'stock',
+        'mrp',
+        'sale_management',
+        'hr_timesheet',
+        'account_invoicing',
+        'website',
+        'purchase',
+        'hr',
+        'fleet'
     ],
 
     'data': [
@@ -55,6 +67,8 @@
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'backend-theme', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'account-financial-tools', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '11.0'},
@@ -64,6 +78,7 @@
         {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
         {'usr': 'OCA', 'repo': 'partner-contact', 'branch': '11.0'},
         {'usr': 'OCA', 'repo': 'web', 'branch': '11.0'},
+        {'usr': 'OCA', 'repo': 'server-tools', 'branch': '11.0'},
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '11.0'},
