@@ -52,7 +52,8 @@
         'website',
         'purchase',
         'hr',
-        'fleet'
+        'fleet',
+        'l10n_ar_currency_update',
     ],
 
     'data': [
@@ -76,6 +77,7 @@
         {'usr': 'ingadhoc', 'repo': 'argentina-reporting', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'enterprise_extensions', 'branch': '11.0'},
         {'usr': 'OCA', 'repo': 'partner-contact', 'branch': '11.0'},
         {'usr': 'OCA', 'repo': 'web', 'branch': '11.0'},
         {'usr': 'OCA', 'repo': 'server-tools', 'branch': '11.0'},
