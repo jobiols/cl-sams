@@ -1,0 +1,4 @@
+odoo-addons https://github.com/jobiols/odoo-addons 11.0
+product https://github.com/ingadhoc/product 11.0
+account-invoicing https://github.com/ingadhoc/account-invoicing 11.0
+argentina-reporting https://github.com/ingadhoc/argentina-reporting.git 11.0
