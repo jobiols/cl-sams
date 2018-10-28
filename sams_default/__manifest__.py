@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # -----------------------------------------------------------------------------------
 #
 #    Copyright (C) 2016  jeo Software  (http://www.jeosoft.com.ar)
@@ -34,7 +33,6 @@
         'l10n_ar_account_vat_ledger_citi',
         'account_debt_management',  #
         'l10n_ar_aeroo_payment_group',  #
-
         'sale_management',
         'account_invoicing',
         'purchase',
@@ -53,6 +51,9 @@
         'purchase',
         'hr',
         'fleet',
+
+        # utilitarios
+        'auto_backup',  # poner el backup en: /var/odoo/backups/
     ],
 
     'data': [
