@@ -39,7 +39,6 @@
         'project',
 
         # aplicaciones instaladas
-        'backend_theme',
         'crm',
         'project',
         'stock',
@@ -54,6 +53,8 @@
 
         # utilitarios
         'auto_backup',  # poner el backup en: /var/odoo/backups/
+        'backend_theme',
+        'due_payments_argentina_fix'
     ],
 
     'data': [
