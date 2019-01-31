@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------------
 #
-#    Copyright (C) 2016  jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2019  jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -69,23 +69,27 @@
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '11.0'},
+
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'backend-theme', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-argentina', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'account-financial-tools',
+        {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme',
          'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'argentina-reporting', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '11.0'},
-        {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
-        {'usr': 'OCA', 'repo': 'partner-contact', 'branch': '11.0'},
-        {'usr': 'OCA', 'repo': 'web', 'branch': '11.0'},
-        {'usr': 'OCA', 'repo': 'server-tools', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-odoo-argentina', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-argentina-sale', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools',
+         'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting',
+         'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'oca-partner-contact', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'oca-web', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'oca-server-tools', 'branch': '11.0'},
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '11.0'},
-        {'name': 'postgres', 'usr': 'postgres', 'ver': '9.6'},
+        {'name': 'postgres', 'usr': 'postgres', 'ver': '11.1-alpine'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
         {'name': 'aeroo', 'usr': 'adhoc', 'img': 'aeroo-docs'},
     ]
