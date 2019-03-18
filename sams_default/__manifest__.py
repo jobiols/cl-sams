@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams',
-    'version': '11.0.0.1',
+    'version': '11.0.1.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
@@ -27,16 +27,7 @@
     'depends': [
 
         # para la localizacion argentina
-        'l10n_ar_account',
-        'l10n_ar_afipws_fe',        # Factura Electrónica Argentina
-        'l10n_ar_aeroo_einvoice',   # impresion de factura electronica aeroo
-        'l10n_ar_account_vat_ledger_citi',
-        'account_debt_management',  #
-        'l10n_ar_aeroo_payment_group',  #
-        'sale_management',
-        'account_invoicing',
-        'purchase',
-        'project',
+        'standard_depends',
 
         # aplicaciones instaladas
         'crm',
@@ -52,9 +43,7 @@
         'fleet',
 
         # utilitarios
-        'auto_backup',  # poner el backup en: /var/odoo/backups/
         'backend_theme',
-        'due_payments_argentina_fix'
     ],
 
     'data': [
@@ -81,6 +70,8 @@
         {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting',
          'branch': '11.0'},
+         {'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '11.0'},
+
         {'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'oca-partner-contact', 'branch': '11.0'},
