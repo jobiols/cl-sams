@@ -69,6 +69,7 @@
         {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools',
          'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-odoo-support', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting',
          'branch': '11.0'},
