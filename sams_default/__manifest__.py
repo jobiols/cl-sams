@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams',
-    'version': '11.0.1.0',
+    'version': '11.0.2.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
@@ -27,7 +27,7 @@
     'depends': [
 
         # para la localizacion argentina
-        'standard_depends',
+        'standard_depends_ce',
 
         # aplicaciones instaladas
         'crm',
@@ -44,6 +44,7 @@
 
         # utilitarios
         'backend_theme',
+        'account_accountant'
     ],
 
     'data': [
@@ -63,6 +64,7 @@
         {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme',
          'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-odoo-argentina', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-argentina-sale', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools',
          'branch': '11.0'},
