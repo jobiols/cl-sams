@@ -45,7 +45,8 @@
 
         # utilitarios
         'backend_theme',
-        'account_accountant'
+        'account_accountant',
+        'l10n_ar_stock',
     ],
 
     'data': [
