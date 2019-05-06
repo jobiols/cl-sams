@@ -41,10 +41,12 @@
         'purchase',
         'hr',
         'fleet',
+        'l10n_ar_stock', # remito electronico argentino
 
         # utilitarios
         'backend_theme',
-        'account_accountant'
+        'account_accountant',
+        'l10n_ar_stock',
     ],
 
     'data': [
@@ -59,30 +61,32 @@
     'port': '8069',
     'repos': [
         {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '11.0'},
+        {'usr': 'oca', 'repo': 'stock-logistics-workflow', 'branch': '11.0'},
 
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme',
+        {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme','branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'product', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'account-financial-tools',         'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'account-payment', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'odoo-support', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'argentina-reporting',
          'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-odoo-argentina', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-argentina-sale', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-account-financial-tools',
-         'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-account-payment', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-odoo-support', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-miscellaneous', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-argentina-reporting',
-         'branch': '11.0'},
-         {'usr': 'jobiols', 'repo': 'adhoc-stock', 'branch': '11.0'},
+         {'usr': 'ingadhoc', 'repo': 'stock', 'branch': '11.0'},
 
-        {'usr': 'jobiols', 'repo': 'adhoc-reporting-engine', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'adhoc-aeroo_reports', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'oca-partner-contact', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'oca-web', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'oca-server-tools', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'oca-server-brand', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'oca-social', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'account-financial-tools', 'branch': '11.0'},
+        {'usr': 'oca', 'repo': 'knowledge', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-sale', 'branch': '11.0'},
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '11.0'},
