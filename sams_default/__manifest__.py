@@ -85,6 +85,7 @@
         {'usr': 'jobiols', 'repo': 'oca-social', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'account-financial-tools', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'knowledge', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '11.0'},
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '11.0'},
