@@ -41,7 +41,7 @@
         'purchase',
         'hr',
         'fleet',
-        'l10n_ar_stock',
+        'l10n_ar_stock', # remito electronico argentino
 
         # utilitarios
         'backend_theme',
