@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams',
-    'version': '11.0.2.0',
+    'version': '11.0e.2.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
@@ -27,7 +27,7 @@
     'depends': [
 
         # para la localizacion argentina
-        'standard_depends_ce',
+        'standard_depends_ee',
 
         # aplicaciones instaladas
         'crm',
@@ -44,8 +44,6 @@
         'l10n_ar_stock', # remito electronico argentino
 
         # utilitarios
-        'backend_theme',
-        'account_accountant',
         'l10n_ar_stock',
     ],
 
@@ -60,7 +58,7 @@
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '11.0'},
+        {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '11.0e'},
         {'usr': 'oca', 'repo': 'stock-logistics-workflow', 'branch': '11.0'},
 
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
