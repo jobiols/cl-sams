@@ -86,7 +86,7 @@
         {'usr': 'jobiols', 'repo': 'adhoc-sale', 'branch': '11.0'},
     ],
     'docker': [
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '11.0'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-ent', 'ver': '11.0e'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '11.1-alpine'},
         {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'},
         {'name': 'aeroo', 'usr': 'adhoc', 'img': 'aeroo-docs'},
