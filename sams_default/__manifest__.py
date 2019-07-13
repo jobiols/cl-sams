@@ -18,7 +18,7 @@
 #
 # -----------------------------------------------------------------------------------
 {
-    'name': 'sams',
+    'name': 'samse',
     'version': '11.0e.2.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
