@@ -86,6 +86,7 @@
         {'usr': 'jobiols', 'repo': 'oca-social', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'account-financial-tools', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'knowledge', 'branch': '11.0'},
+        {'usr': 'oca', 'repo': 'server-ux', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-product', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'adhoc-sale', 'branch': '11.0'},
     ],
