@@ -88,6 +88,8 @@
         {'usr': 'oca', 'repo': 'social', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'knowledge', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'sale-workflow', 'branch': '11.0'},
+        {'usr': 'oca', 'repo': 'server-ux', 'branch': '11.0'},
+
     ],
     'docker': [
         {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-ent', 'ver': '11.0e'},
