@@ -74,7 +74,8 @@
         {'usr': 'ingadhoc', 'repo': 'miscellaneous', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'argentina-reporting',
          'branch': '11.0'},
-         {'usr': 'ingadhoc', 'repo': 'stock', 'branch': '11.0'},
+        {'usr': 'ingadhoc', 'repo': 'stock', 'branch': '11.0'},
+        {'usr': 'oca', 'repo': 'sale-workflow', 'branch': '11.0'},
 
         {'usr': 'ingadhoc', 'repo': 'reporting-engine', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'aeroo_reports', 'branch': '11.0'},
