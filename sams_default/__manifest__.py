@@ -90,6 +90,7 @@
         {'usr': 'oca', 'repo': 'knowledge', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'sale-workflow', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'server-ux', 'branch': '11.0'},
+        {'usr': 'oca', 'repo': 'contract', 'branch': '11.0'},
 
     ],
     'docker': [
