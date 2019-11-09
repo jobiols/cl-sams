@@ -85,7 +85,6 @@
         {'usr': 'oca', 'repo': 'partner-contact', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'web', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'server-tools', 'branch': '11.0'},
-        {'usr': 'oca', 'repo': 'server-brand', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'social', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'knowledge', 'branch': '11.0'},
         {'usr': 'oca', 'repo': 'sale-workflow', 'branch': '11.0'},
