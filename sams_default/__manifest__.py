@@ -25,6 +25,7 @@
     'summary': 'Customización Sams',
     'author': 'jeo Software',
     'depends': [
+        'product_tags',
 
         # para la localizacion argentina
         'standard_depends_ee',
