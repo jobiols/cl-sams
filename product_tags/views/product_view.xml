@@ -3,10 +3,12 @@
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 
 <odoo>
+    <!-- Agregar tag al formulario de producto -->
     <record id="product_template_only_form_view" model="ir.ui.view">
         <field name="name">PRODUCT TAGS add tag</field>
         <field name="model">product.template</field>
-        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="inherit_id"
+               ref="product.product_template_only_form_view"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='categ_id']" position="after">
                 <field name="tag_id" widget="many2many_tags"
@@ -16,6 +18,22 @@
         </field>
     </record>
 
+    <!-- Agregar tag al kanban de producto -->
+    <record id="product_template_kanban_view" model="ir.ui.view">
+        <field name="name">PRODUCT TAGS add tag</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_kanban_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//strong[hasclass('o_kanban_record_title')]" position="after">
+                <span class="oe_kanban_list_many2many">
+                    <field name="tag_id" widget="many2many_tags"
+                           options="{'color_field': 'color'}"/>
+                </span>
+            </xpath>
+        </field>
+    </record>
+
+    <!-- Formulario de etiqueta -->
     <record id="view_product_tag_form" model="ir.ui.view">
         <field name="name">Etiquetas de producto</field>
         <field name="model">product.tag</field>
@@ -30,6 +48,7 @@
         </field>
     </record>
 
+    <!-- Accion -->
     <record id="action_product_category_form" model="ir.actions.act_window">
         <field name="name">Etiquetas de producto</field>
         <field name="type">ir.actions.act_window</field>
@@ -40,16 +59,19 @@
                 Hacer click para crear una nueva etiqueta de producto
             </p>
             <p>
-                Administre las etiquetas de producto para ayudar a la clasificacion de sus productos.<br/>
-                Un producto puede tener varias etiquetas, además estas pueden tener una estructura jerárquica o sea
+                Administre las etiquetas de producto para ayudar a la
+                clasificacion de sus productos.
+                <br/>
+                Un producto puede tener varias etiquetas, además estas pueden
+                tener una estructura jerárquica o sea
                 un producto con una categoría tiene también la categoria padre.
             </p>
         </field>
     </record>
 
     <menuitem id="menu_product_category_form"
-        action="action_product_category_form"
-        name="Etiquetas de producto"
-        sequence="1" parent="stock.menu_product_in_config_stock"/>
+              action="action_product_category_form"
+              name="Etiquetas de producto"
+              sequence="1" parent="stock.menu_product_in_config_stock"/>
 
 </odoo>
