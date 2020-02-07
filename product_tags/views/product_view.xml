@@ -18,13 +18,28 @@
         </field>
     </record>
 
+    <!-- Agregar etiqueta a la vista de busqueda -->
+    <record id="product_template_search_view" model="ir.ui.view">
+        <field name="name">PRODUCT TAGS add tag search</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id"
+               ref="product.product_template_search_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="tag_id" string="Etiqueta"
+                       filter_domain="[('tag_id','ilike', self)]"/>
+            </xpath>
+        </field>
+    </record>
+
     <!-- Agregar tag al kanban de producto -->
     <record id="product_template_kanban_view" model="ir.ui.view">
         <field name="name">PRODUCT TAGS add tag</field>
         <field name="model">product.template</field>
         <field name="inherit_id" ref="product.product_template_kanban_view"/>
         <field name="arch" type="xml">
-            <xpath expr="//strong[hasclass('o_kanban_record_title')]" position="after">
+            <xpath expr="//strong[hasclass('o_kanban_record_title')]"
+                   position="after">
                 <span class="oe_kanban_list_many2many">
                     <field name="tag_id" widget="many2many_tags"
                            options="{'color_field': 'color'}"/>
