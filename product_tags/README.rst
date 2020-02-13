@@ -14,12 +14,20 @@ Product Tags
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-jobiols%2Fcl--sams-lightgray.png?logo=github
-    :target: https://github.com/jobiols/cl-sams/tree/11.0/product_tags
+    :target: https://github.com/jobiols/cl-sams/tree/12.0/product_tags
     :alt: jobiols/cl-sams
 
 |badge1| |badge2| |badge3| 
 
-Agrega un campo tags en la ficha del prooducto y un menu para editar los tags
+Administre las etiquetas de producto para ayudar a la clasificacion de sus productos.
+
+Un producto puede tener varias etiquetas, además estas pueden tener una estructura jerárquica
+o sea un producto con una categoría tiene también la categoria padre.
+Las etiquetas se ven en la vista Kanban
+
+Para editar las etiquetas ir a Inventario / Configuracion / Productos / Etiquetas de producto.
+
+Se puede buscar por etiquetas en el filtro normal de productos.
 
 **Table of contents**
 
@@ -32,7 +40,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/jobiols/cl-sams/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed
-`feedback <https://github.com/jobiols/cl-sams/issues/new?body=module:%20product_tags%0Aversion:%2011.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/jobiols/cl-sams/issues/new?body=module:%20product_tags%0Aversion:%2012.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -60,6 +68,6 @@ Current maintainer:
 
 |maintainer-jobiols| 
 
-This module is part of the `jobiols/cl-sams <https://github.com/jobiols/cl-sams/tree/11.0/product_tags>`_ project on GitHub.
+This module is part of the `jobiols/cl-sams <https://github.com/jobiols/cl-sams/tree/12.0/product_tags>`_ project on GitHub.
 
 You are welcome to contribute.

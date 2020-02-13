@@ -7,6 +7,6 @@
 oca-gen-addon-readme \
 	--org-name jobiols \
 	--repo-name cl-sams \
-	--branch 11.0 \
+	--branch 12.0 \
 	--addons-dir "$PWD" \
 	--gen-html

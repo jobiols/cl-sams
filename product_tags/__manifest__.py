@@ -3,7 +3,7 @@
 {
     "name": "Product Tags",
     "summary": "Agrega etiquetas a los productos",
-    "version": "11.0.0.0.0",
+    "version": "12.0.0.0.0",
     "development_status": "Production/Stable",  #  "Alpha|Beta|Production/Stable|Mature",
     "category": "Tools",
     "website": "http://jeosoft.com.ar",
