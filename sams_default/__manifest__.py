@@ -62,7 +62,6 @@
         {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '12.0e'},
         {'usr': 'oca', 'repo': 'stock-logistics-workflow', 'branch': '12.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '12.0'},
-        {'usr': 'jobiols', 'repo': 'muk', 'branch': '12.0'},
         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '12.0'},
         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '12.0'},
         {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '12.0'},
