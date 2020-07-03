@@ -41,10 +41,9 @@
         'purchase',
         'hr',
         'fleet',
-        'l10n_ar_stock',  # remito electronico argentino
 
         # utilitarios
-        'l10n_ar_stock',
+#        'l10n_ar_stock',  # remito electronico argentino
         'product_tags',
     ],
 
@@ -62,7 +61,6 @@
         {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '11.0e'},
         {'usr': 'oca', 'repo': 'stock-logistics-workflow', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
-        {'usr': 'jobiols', 'repo': 'muk', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'odoo-argentina', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'product', 'branch': '11.0'},
         {'usr': 'ingadhoc', 'repo': 'argentina-sale', 'branch': '11.0'},
