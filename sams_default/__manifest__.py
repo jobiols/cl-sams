@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------------------------
 #
-#    Copyright (C) 2019  jeo Software  (http://www.jeosoft.com.ar)
+#    Copyright (C) 2020 jeo Software  (http://www.jeosoft.com.ar)
 #    All Rights Reserved.
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -78,38 +78,37 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-
         'https://github.com/jobiols/cl-sams.git -b 13.0e',
-        'https://github.com/oca/stock-logistics-workflow.git',
 
+        # contiene standard depends
         'https://github.com/jobiols/odoo-addons.git',
 
+        # Adhoc para localizacion
         'https://github.com/ingadhoc/odoo-argentina.git',
-        'https://github.com/ingadhoc/product.git',
-
-        'https://github.com/ingadhoc/argentina-sale',
-        'https://github.com/ingadhoc/account-financial-tools',
-        'https://github.com/ingadhoc/account-payment',
         'https://github.com/ingadhoc/miscellaneous',
-        'https://github.com/ingadhoc/argentina-reporting',
-        'https://github.com/ingadhoc/stock',
-        'https://github.com/ingadhoc/website',
+        'https://github.com/ingadhoc/account-financial-tools',
         'https://github.com/ingadhoc/sale',
         'https://github.com/ingadhoc/product',
+        'https://github.com/ingadhoc/argentina-sale',
+        'https://github.com/ingadhoc/account-payment',
+        'https://github.com/ingadhoc/stock',
+        
+        # oca para localizacion
+        'https://github.com/oca/web',
+
+        # otros repositorios adicionales ADHOC
+        ###########################################################
+        'https://github.com/ingadhoc/website',
         'https://github.com/ingadhoc/partner',
         'https://github.com/ingadhoc/account-invoicing',
-        'https://github.com/ingadhoc/reporting-engine',
-        'https://github.com/ingadhoc/account-financial-tools',
-        'https://github.com/ingadhoc/sale',
-        'https://github.com/ingadhoc/account-invoicing',
 
+        # otros repositorios adicionales OCA
+        ###########################################################
         'https://github.com/oca/partner-contact',
-        'https://github.com/oca/web',
-        'https://github.com/oca/server-tools',
-        'https://github.com/oca/social',
         'https://github.com/oca/sale-workflow',
         'https://github.com/oca/server-ux',
         'https://github.com/oca/contract',
+        'https://github.com/oca/stock-logistics-workflow.git',
     ],
 
     # list of images to use in the form 'name image-url'
