@@ -79,6 +79,7 @@
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
         'https://github.com/jobiols/cl-sams.git -b 13.0e',
+        'https://github.com/jobiols/jeo-enterprise.git',
 
         # contiene standard depends
         'https://github.com/jobiols/odoo-addons.git',
