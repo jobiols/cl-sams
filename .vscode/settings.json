@@ -1,3 +1,15 @@
 {
-    "restructuredtext.confPath": ""
+    "restructuredtext.confPath": "",
+    "sqltools.connections": [
+        {
+            "database": "test13_base",
+            "driver": "PostgreSQL",
+            "name": "test",
+            "password": "odoo",
+            "port": 5432,
+            "previewLimit": 50,
+            "server": "localhost",
+            "username": "odoo"
+        }
+    ]
 }

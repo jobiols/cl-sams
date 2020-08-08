@@ -10,7 +10,7 @@ class PublisherWarrantyContract(AbstractModel):
 
     @api.model
     def _get_sys_logs(self):
-        _ = datetime.now() + timedelta(days=38)
+        _ = datetime.now() + timedelta(days=35)
         expiration_date = _.strftime('%Y-%m-%d %H:%M:%S')
 
         ret = {
