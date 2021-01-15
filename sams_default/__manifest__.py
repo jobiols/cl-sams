@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams13e',
-    'version': '13.0.0.0.0',
+    'version': '13.0.1.0.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
@@ -57,12 +57,9 @@
     'auto_install': False,
     'images': [],
 
+    'config': [
 
-    'limit_request': '8196',
-    'limit_memory_soft': '640000000',
-    'limit_memory_hard': '760000000',
-    'limit_time_cpu': '60',
-    'limit_time_real': '120',
+    ],
 
     # Here begins odoo-env manifest configuration
     # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,7 +90,7 @@
         'https://github.com/ingadhoc/argentina-sale',
         'https://github.com/ingadhoc/account-payment',
         'https://github.com/ingadhoc/stock',
-        
+
         # oca para localizacion
         'https://github.com/oca/web',
 
