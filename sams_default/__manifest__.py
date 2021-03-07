@@ -78,6 +78,7 @@
         'git@github.com:jobiols/cl-sams.git -b 13.0e',
         'git@github.com:jobiols/jeo-enterprise.git',
         'git@github.com:jobiols/odoo-jeo-ce.git',
+        'git@github.com:jobiols/odoo-addons.git',
 
         # contiene standard depends
         'git@github.com:jobiols/odoo-jeo-ee.git',
