@@ -186,9 +186,9 @@
         'https://github.com/ingadhoc/partner ingadhoc-partner',
         'https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine',
 
-        #'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
+        'https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce',
         # pruebas del QR
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
+        #'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
 
         'https://github.com/ingadhoc/manufacture ingadhoc-manufacture',
         'https://github.com/ingadhoc/multi-store ingadhoc-multi-store',
