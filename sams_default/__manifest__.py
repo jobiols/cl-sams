@@ -80,7 +80,7 @@
         'git@github.com:jobiols/odoo-jeo-ce.git',
 
         # contiene standard depends
-        'https://github.com/jobiols/odoo-addons.git',
+        'git@github.com:jobiols/odoo-jeo-ee.git',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
