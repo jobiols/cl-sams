@@ -79,6 +79,7 @@
         'git@github.com:jobiols/jeo-enterprise.git',
         'git@github.com:jobiols/odoo-jeo-ce.git',
         'git@github.com:jobiols/odoo-addons.git',
+        'git@github.com:jobiols/odoo-private-addons.git',
 
         # contiene standard depends
         'git@github.com:jobiols/odoo-jeo-ee.git',
