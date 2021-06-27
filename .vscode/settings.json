@@ -2,7 +2,7 @@
     "restructuredtext.confPath": "",
     "sqltools.connections": [
         {
-            "database": "test13_base",
+            "database": "sams13e_prod",
             "driver": "PostgreSQL",
             "name": "test",
             "password": "odoo",

@@ -19,7 +19,7 @@
 # -----------------------------------------------------------------------------------
 {
     'name': 'sams13e',
-    'version': '13.0.1.0.0',
+    'version': '13.0.1.0.2',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
     'summary': 'Customización Sams',
@@ -36,7 +36,7 @@
         'mrp',
         'sale_management',
         'hr_timesheet',
-        'account_invoicing',
+        #'account_invoicing',
         'website',
         'purchase',
         'hr',
