@@ -27,7 +27,7 @@
     'depends': [
 
         # para la localizacion argentina
-        'standard_depends_ee',
+        #'standard_depends_ee',
 
         # aplicaciones instaladas
         'crm',
