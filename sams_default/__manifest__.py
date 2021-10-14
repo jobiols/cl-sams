@@ -46,6 +46,7 @@
         # utilitarios
         'l10n_ar_stock',
         'product_tags',
+        'padron_afip',
     ],
 
     'data': [
@@ -201,6 +202,8 @@
         # Odoomates
         'https://github.com/odoomates/odooapps odoomates-odooapps',
 
+        # Regaby
+        'https://github.com/regaby/odoo-custom regaby-odoo-custom',
     ],
 
     # list of images to use in the form 'name image-url'
