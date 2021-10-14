@@ -201,9 +201,6 @@
 
         # Odoomates
         'https://github.com/odoomates/odooapps odoomates-odooapps',
-
-        # Regaby
-        'https://github.com/regaby/odoo-custom regaby-odoo-custom',
     ],
 
     # list of images to use in the form 'name image-url'
