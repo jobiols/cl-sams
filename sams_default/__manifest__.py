@@ -46,7 +46,7 @@
         # utilitarios
         'l10n_ar_stock',
         'product_tags',
-        'padron_afip',
+        #'padron_afip',  solo funciona en CE
     ],
 
     'data': [
