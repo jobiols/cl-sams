@@ -71,6 +71,7 @@
 
     # if Enterprise it installs in a different directory than community
     'odoo-license': 'EE',
+    'prod_server': 'sams@sams13ee_prod',
 
     # port where odoo starts serving pages
     'port': '8069',
