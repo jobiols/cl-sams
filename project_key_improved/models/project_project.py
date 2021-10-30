@@ -26,18 +26,15 @@ class Project(models.Model):
                 continue
 
             if rec.name:
-                rec.key = self.generate_project_key(rec.name)
+                rec.key = self.generate_project_key(rec)
             else:
                 rec.key = ""
 
     @api.model
     def create(self, vals):
-        if "key" not in vals:
-            vals["key"] = self.generate_project_key(vals["name"])
-
         new_project = super(Project, self).create(vals)
         new_project.create_sequence()
-
+        new_project.key = self.generate_project_key(new_project)
         return new_project
 
     def write(self, values):
@@ -124,22 +121,11 @@ class Project(models.Model):
             return False
         return self.sudo().task_key_sequence_id.next_by_id()
 
-    def generate_project_key(self, text):
-        test_project_key = self.env.context.get("test_project_key")
-        if config["test_enable"] and not test_project_key:
-            return False
+    def generate_project_key(self, project):
+        """ El project key sera el id del registro formateado con 4 posiciones
+        """
+        return '%04d' % project.id if project else ''
 
-        if not text:
-            return ""
-
-        data = text.split(" ")
-        if len(data) == 1:
-            return data[0][:3].upper()
-
-        key = []
-        for item in data:
-            key.append(item[:1].upper())
-        return "".join(key)
 
     def _update_task_keys(self):
         """
@@ -171,10 +157,9 @@ class Project(models.Model):
         installation.
         :return:
         """
-        for project in self.with_context(active_test=False).search(
-            [("key", "=", False)]
-        ):
-            project.key = self.generate_project_key(project.name)
+        domain = [("key", "=", False)]
+        for project in self.with_context(active_test=False).search(domain):
+            project.key = self.generate_project_key(project)
             project.create_sequence()
 
             for task in project.task_ids:
