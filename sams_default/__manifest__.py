@@ -48,6 +48,8 @@
         'l10n_ar_stock',
         'product_tags',
         'l10n_ar_edi_ux',  # Padron AFIP
+        'project_key_improved',
+
     ],
 
     'data': [
