@@ -11,5 +11,6 @@
             "server": "localhost",
             "username": "odoo"
         }
-    ]
+    ],
+    "esbonio.sphinx.confDir": ""
 }
