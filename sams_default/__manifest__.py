@@ -182,6 +182,7 @@
         "https://github.com/ingadhoc/project ingadhoc-project",
         # Odoomates
         "https://github.com/odoomates/odooapps odoomates-odooapps",
+        "attendance_face_recognition",
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
