@@ -46,6 +46,7 @@
         "product_tags",
         "l10n_ar_edi_ux",  # Padron AFIP
         "project_key_improved",
+        "attendance_face_recognition",
     ],
     "data": [],
     "test": [],
@@ -182,7 +183,6 @@
         "https://github.com/ingadhoc/project ingadhoc-project",
         # Odoomates
         "https://github.com/odoomates/odooapps odoomates-odooapps",
-        "attendance_face_recognition",
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
