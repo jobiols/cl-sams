@@ -10,7 +10,7 @@
         <field name="inherit_id" ref="project.edit_project" />
         <field name="arch" type="xml">
             <field name="partner_id" position="before">
-                <field name="key" required="1" />
+                <field name="key" required="0" />
             </field>
         </field>
     </record>

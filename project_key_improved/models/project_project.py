@@ -10,14 +10,17 @@ class Project(models.Model):
     _inherit = "project.project"
 
     task_key_sequence_id = fields.Many2one(
-        comodel_name="ir.sequence", string="Key Sequence", ondelete="restrict"
+        comodel_name="ir.sequence",
+        string="Key Sequence",
+        ondelete="restrict",
     )
 
     key = fields.Char(
         size=10,
         index=True,
         readonly=True,
-        copy=False)
+        copy=False,
+    )
 
     _sql_constraints = [
         ("project_key_unique", "UNIQUE(key)", "Project key must be unique")
@@ -126,10 +129,8 @@ class Project(models.Model):
         return self.sudo().task_key_sequence_id.next_by_id()
 
     def generate_project_key(self, project):
-        """ El project key sera el id del registro formateado con 4 posiciones
-        """
-        return '%04d' % project.id if project and isinstance(project.id, int) else ''
-
+        """El project key sera el id del registro formateado con 4 posiciones"""
+        return "%04d" % project.id if project and isinstance(project.id, int) else ""
 
     def _update_task_keys(self):
         """
