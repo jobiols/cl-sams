@@ -158,7 +158,7 @@
         "https://github.com/OCA/stock-logistics-reporting oca-stock-logistics-reporting",
         # ingadhoc
         "https://github.com/ingadhoc/product ingadhoc-product",
-        "https://github.com/quilsoft-org/odoo-argentina quilsoft-odoo-argentina",
+        "https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina",
         "https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous",
         "https://github.com/ingadhoc/sale ingadhoc-sale",
         "https://github.com/ingadhoc/purchase ingadhoc-purchase",
