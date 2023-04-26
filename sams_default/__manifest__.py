@@ -18,35 +18,13 @@
 #
 # -----------------------------------------------------------------------------------
 {
-    "name": "sams13e",
-    "version": "13.0.1.0.2",
+    "name": "sams16e",
+    "version": "16.0.1.0.0",
     "license": "Other OSI approved licence",
     "category": "Tools",
     "summary": "Customización Sams",
     "author": "jeo Software",
     "depends": [
-        # para la localizacion argentina
-        "standard_depends_ee",
-        "website_sale_order_type_ux",
-        # aplicaciones instaladas
-        "crm",
-        "project",
-        "stock",
-        "mrp",
-        "sale_management",
-        "hr_timesheet",
-        #'account_invoicing',
-        "website",
-        "purchase",
-        "hr",
-        "fleet",
-        "l10n_ar_stock",  # remito electronico argentino
-        # utilitarios
-        "l10n_ar_stock",
-        "product_tags",
-        "l10n_ar_edi_ux",  # Padron AFIP
-        "project_key_improved",
-        "attendance_face_recognition",
     ],
     "data": [],
     "test": [],
@@ -61,18 +39,12 @@
     "env-ver": "2",
     # if Enterprise it installs in a different directory than community
     "odoo-license": "EE",
-    "prod_server": "sams@sams13ee_prod",
     # port where odoo starts serving pages
     "port": "8069",
     # list of url repos to install in the form 'repo-url directory'
     "git-repos": [
-        "git@github.com:jobiols/cl-sams.git -b 13.0e",
+        "git@github.com:jobiols/cl-sams.git -b 16.0e",
         "git@github.com:jobiols/jeo-enterprise.git",
-        "git@github.com:jobiols/odoo-jeo-ce.git",
-        "git@github.com:jobiols/odoo-addons.git",
-        "git@github.com:jobiols/odoo-private-addons.git",
-        # contiene standard depends
-        "git@github.com:jobiols/odoo-jeo-ee.git",
         # OCA
         "https://github.com/OCA/server-tools oca-server-tools",
         "https://github.com/OCA/stock-logistics-workflow oca-stock-logistics-workflow",
@@ -186,8 +158,7 @@
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
-        "odoo jobiols/odoo-ent:13.0e",
-        "postgres postgres:10.1-alpine",
-        "nginx nginx",
+        "odoo jobiols/odoo-ent:16.0e",
+        "postgres postgres:14.1-alpine",
     ],
 }

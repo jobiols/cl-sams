@@ -33,7 +33,7 @@ services:
       - /odoo_ar/traefik/:/opt/traefik/
 
   postgres:
-    image: postgres:10.1-alpine
+    image: postgres:14.1-alpine
     container_name: postgres
     restart: always
     environment:
@@ -43,15 +43,15 @@ services:
       - /odoo_ar/odoo-13.0e/sams13e/postgresql:/var/lib/postgresql/data
 
   odoo:
-    image: jobiols/odoo-ent:13.0e
+    image: jobiols/odoo-ent:16.0e
     container_name: odoo
     restart: unless-stopped
     volumes:
-      - /odoo_ar/odoo-13.0e/sams13e/config:/opt/odoo/etc/
-      - /odoo_ar/odoo-13.0e/sams13e/data_dir:/opt/odoo/data
-      - /odoo_ar/odoo-13.0e/sams13e/log:/var/log/odoo
-      - /odoo_ar/odoo-13.0e/sams13e/sources:/opt/odoo/custom-addons
-      - /odoo_ar/odoo-13.0e/sams13e/backup_dir:/var/odoo/backups/
+      - /odoo_ar/odoo-16.0e/sams13e/config:/opt/odoo/etc/
+      - /odoo_ar/odoo-16.0e/sams13e/data_dir:/opt/odoo/data
+      - /odoo_ar/odoo-16.0e/sams13e/log:/var/log/odoo
+      - /odoo_ar/odoo-16.0e/sams13e/sources:/opt/odoo/custom-addons
+      - /odoo_ar/odoo-16.0e/sams13e/backup_dir:/var/odoo/backups/
     links:
       - postgres:db
     environment:
@@ -98,27 +98,3 @@ services:
       - traefik.http.routers.rou-chat-secure.service=srv-chat-secure
       - traefik.http.services.srv-chat-secure.loadbalancer.server.port=8072
 
-  samba:
-    image: dperson/samba
-    container_name: samba
-    restart: unless-stopped
-    environment:
-      TZ: 'America/Argentina/Buenos_Aires'
-    networks:
-      - default
-    ports:
-      - "137:137/udp"
-      - "138:138/udp"
-      - "139:139/tcp"
-      - "445:445/tcp"
-    stdin_open: true
-    read_only: true
-    tmpfs:
-      - /tmp
-    tty: true
-    volumes:
-      - /odoo_ar/odoo-13.0e/sams13e/backup_dir:/mnt:ro
-    command: '-u "sams;sams***" -s "Odoo Backup Sams;/mnt;yes;yes;no;sams;;;Archivos de backup diarios maximo 30 dias." -p'
-
-    # -s "<name;/path>[;browse;readonly;guest;users;admins;writelist;comment]"
-    # -u "<username;password>[;ID;group;GID]"
