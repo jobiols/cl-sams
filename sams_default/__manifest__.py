@@ -145,10 +145,8 @@
         "https://github.com/ingadhoc/partner ingadhoc-partner",
         "https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce",
         "https://github.com/ingadhoc/odoo-argentina-ee ingadhoc-odoo-argentina-ee",
-        "https://github.com/ingadhoc/manufacture ingadhoc-manufacture",
         "https://github.com/ingadhoc/multi-store ingadhoc-multi-store",
         "https://github.com/ingadhoc/hr ingadhoc-hr",
-        "https://github.com/ingadhoc/account-analytic ingadhoc-account-analytic",
         "https://github.com/ingadhoc/project ingadhoc-project",
         # Odoomates
         "https://github.com/odoomates/odooapps odoomates-odooapps",
