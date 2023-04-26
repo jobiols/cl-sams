@@ -143,7 +143,6 @@
         "https://github.com/ingadhoc/argentina-sale ingadhoc-argentina-sale",
         "https://github.com/ingadhoc/stock ingadhoc-stock",
         "https://github.com/ingadhoc/partner ingadhoc-partner",
-        "https://github.com/ingadhoc/reporting-engine ingadhoc-reporting-engine",
         "https://github.com/ingadhoc/odoo-argentina-ce ingadhoc-odoo-argentina-ce",
         "https://github.com/ingadhoc/odoo-argentina-ee ingadhoc-odoo-argentina-ee",
         "https://github.com/ingadhoc/manufacture ingadhoc-manufacture",
