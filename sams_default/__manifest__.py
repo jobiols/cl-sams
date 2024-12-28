@@ -41,7 +41,7 @@
     "port": "8069",
     # list of url repos to install in the form 'repo-url directory'
     "git-repos": [
-        "git@github.com:jobiols/cl-sams.git -b 17.0e",
+        "https://github.com/jobiols/cl-sams.git -b 17.0e",
 #        "git@github.com:jobiols/jeo-enterprise.git",
         # OCA
         # "https://github.com/OCA/server-tools oca-server-tools",
