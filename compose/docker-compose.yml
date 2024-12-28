@@ -1,13 +1,9 @@
-# Compose file odoo sams v13.0e + https
-# Ojo hay que crear el /odoo_ar/traefik/acme.json y ponerle chmod 600
-# Version 2021-01-15
+# Version 2024-12-28
 #################################################################################
-
-version: '3.5'
 
 services:
   traefik:
-    image: traefik:2.3.7
+    image: traefik:3.1
     container_name: traefik
     restart: unless-stopped
     command:
@@ -97,4 +93,3 @@ services:
       # redirecciona rout-chat-secure al puerto 8072 donde odoo escucha el longpolling
       - traefik.http.routers.rou-chat-secure.service=srv-chat-secure
       - traefik.http.services.srv-chat-secure.loadbalancer.server.port=8072
-
